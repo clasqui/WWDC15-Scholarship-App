@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED2D8AB81AE4F49D0098CB53 /* DeveloperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2D8AB71AE4F49D0098CB53 /* DeveloperViewController.swift */; };
+		ED3075181ADD683700E3DA98 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3075171ADD683700E3DA98 /* AppDelegate.swift */; };
+		ED30751A1ADD683700E3DA98 /* HumanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3075191ADD683700E3DA98 /* HumanViewController.swift */; };
+		ED30751D1ADD683700E3DA98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED30751B1ADD683700E3DA98 /* Main.storyboard */; };
+		ED30751F1ADD683700E3DA98 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED30751E1ADD683700E3DA98 /* Images.xcassets */; };
+		ED3075221ADD683700E3DA98 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED3075201ADD683700E3DA98 /* LaunchScreen.xib */; };
+		ED40ED4D1AEC5A2400E459E6 /* HelloViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED40ED4B1AEC5A2400E459E6 /* HelloViewController.swift */; };
+		ED40ED4E1AEC5A2400E459E6 /* HelloViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED40ED4C1AEC5A2400E459E6 /* HelloViewController.xib */; };
+		ED40ED521AEC62E900E459E6 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED40ED501AEC62E900E459E6 /* IntroViewController.swift */; };
+		ED40ED531AEC62E900E459E6 /* IntroViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED40ED511AEC62E900E459E6 /* IntroViewController.xib */; };
+		ED40ED561AEC874700E459E6 /* ReadyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED40ED541AEC874700E459E6 /* ReadyViewController.swift */; };
+		ED40ED571AEC874700E459E6 /* ReadyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED40ED551AEC874700E459E6 /* ReadyViewController.xib */; };
+		ED40ED5A1AEC948400E459E6 /* CurrentEducationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED40ED581AEC948400E459E6 /* CurrentEducationViewController.swift */; };
+		ED40ED5B1AEC948400E459E6 /* CurrentEducationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED40ED591AEC948400E459E6 /* CurrentEducationViewController.xib */; };
+		ED40ED601AEC95D600E459E6 /* UniversityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED40ED5E1AEC95D600E459E6 /* UniversityViewController.swift */; };
+		ED40ED611AEC95D600E459E6 /* UniversityViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED40ED5F1AEC95D600E459E6 /* UniversityViewController.xib */; };
+		ED40ED641AEC964600E459E6 /* HighSchoolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED40ED621AEC964600E459E6 /* HighSchoolViewController.swift */; };
+		ED40ED651AEC964600E459E6 /* HighSchoolViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED40ED631AEC964600E459E6 /* HighSchoolViewController.xib */; };
+		ED40ED671AEC9BEE00E459E6 /* INS-La-Roca-Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = ED40ED661AEC9BEE00E459E6 /* INS-La-Roca-Logo.png */; };
+		ED40ED691AECA07C00E459E6 /* IMG_0063.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ED40ED681AECA07C00E459E6 /* IMG_0063.jpeg */; };
+		ED40ED6C1AECF1EE00E459E6 /* BeginingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED40ED6A1AECF1EE00E459E6 /* BeginingViewController.swift */; };
+		ED40ED6D1AECF1EE00E459E6 /* BeginingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED40ED6B1AECF1EE00E459E6 /* BeginingViewController.xib */; };
+		ED40ED711AECF56C00E459E6 /* SkillsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED40ED6F1AECF56B00E459E6 /* SkillsViewController.swift */; };
+		ED40ED721AECF56C00E459E6 /* SkillsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED40ED701AECF56B00E459E6 /* SkillsViewController.xib */; };
+		ED40ED741AECFB8A00E459E6 /* pianoconcert-icon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ED40ED731AECFB8A00E459E6 /* pianoconcert-icon.jpg */; };
+		ED40ED771AECFD3100E459E6 /* FirstMacViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED40ED751AECFD3100E459E6 /* FirstMacViewController.swift */; };
+		ED40ED781AECFD3100E459E6 /* FirstMacViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED40ED761AECFD3100E459E6 /* FirstMacViewController.xib */; };
+		ED40ED7B1AECFEFD00E459E6 /* PianoconcertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED40ED791AECFEFD00E459E6 /* PianoconcertViewController.swift */; };
+		ED40ED7C1AECFEFD00E459E6 /* PianoconcertViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED40ED7A1AECFEFD00E459E6 /* PianoconcertViewController.xib */; };
+		ED40ED7F1AED109F00E459E6 /* WWDCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED40ED7D1AED109F00E459E6 /* WWDCViewController.swift */; };
+		ED40ED801AED109F00E459E6 /* WWDCViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED40ED7E1AED109F00E459E6 /* WWDCViewController.xib */; };
+		ED5286E71ADFAC6100B9C079 /* StudentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5286E61ADFAC6100B9C079 /* StudentViewController.swift */; };
+		ED5286E91ADFAC7F00B9C079 /* MusicianViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5286E81ADFAC7F00B9C079 /* MusicianViewController.swift */; };
+		ED8AD1781ADE89D5005699AE /* ContentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8AD1771ADE89D5005699AE /* ContentController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ED2D8AB71AE4F49D0098CB53 /* DeveloperViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeveloperViewController.swift; sourceTree = "<group>"; };
+		ED3075121ADD683700E3DA98 /* Marc Clascà.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Marc Clascà.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED3075161ADD683700E3DA98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED3075171ADD683700E3DA98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ED3075191ADD683700E3DA98 /* HumanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HumanViewController.swift; sourceTree = "<group>"; };
+		ED30751C1ADD683700E3DA98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED30751E1ADD683700E3DA98 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		ED3075211ADD683700E3DA98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		ED40ED4B1AEC5A2400E459E6 /* HelloViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelloViewController.swift; sourceTree = "<group>"; };
+		ED40ED4C1AEC5A2400E459E6 /* HelloViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HelloViewController.xib; sourceTree = "<group>"; };
+		ED40ED501AEC62E900E459E6 /* IntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
+		ED40ED511AEC62E900E459E6 /* IntroViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IntroViewController.xib; sourceTree = "<group>"; };
+		ED40ED541AEC874700E459E6 /* ReadyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReadyViewController.swift; sourceTree = "<group>"; };
+		ED40ED551AEC874700E459E6 /* ReadyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReadyViewController.xib; sourceTree = "<group>"; };
+		ED40ED581AEC948400E459E6 /* CurrentEducationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentEducationViewController.swift; sourceTree = "<group>"; };
+		ED40ED591AEC948400E459E6 /* CurrentEducationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CurrentEducationViewController.xib; sourceTree = "<group>"; };
+		ED40ED5E1AEC95D600E459E6 /* UniversityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UniversityViewController.swift; sourceTree = "<group>"; };
+		ED40ED5F1AEC95D600E459E6 /* UniversityViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UniversityViewController.xib; sourceTree = "<group>"; };
+		ED40ED621AEC964600E459E6 /* HighSchoolViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HighSchoolViewController.swift; sourceTree = "<group>"; };
+		ED40ED631AEC964600E459E6 /* HighSchoolViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HighSchoolViewController.xib; sourceTree = "<group>"; };
+		ED40ED661AEC9BEE00E459E6 /* INS-La-Roca-Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "INS-La-Roca-Logo.png"; sourceTree = "<group>"; };
+		ED40ED681AECA07C00E459E6 /* IMG_0063.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0063.jpeg; sourceTree = "<group>"; };
+		ED40ED6A1AECF1EE00E459E6 /* BeginingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeginingViewController.swift; sourceTree = "<group>"; };
+		ED40ED6B1AECF1EE00E459E6 /* BeginingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BeginingViewController.xib; sourceTree = "<group>"; };
+		ED40ED6F1AECF56B00E459E6 /* SkillsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SkillsViewController.swift; sourceTree = "<group>"; };
+		ED40ED701AECF56B00E459E6 /* SkillsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SkillsViewController.xib; sourceTree = "<group>"; };
+		ED40ED731AECFB8A00E459E6 /* pianoconcert-icon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "pianoconcert-icon.jpg"; sourceTree = "<group>"; };
+		ED40ED751AECFD3100E459E6 /* FirstMacViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstMacViewController.swift; sourceTree = "<group>"; };
+		ED40ED761AECFD3100E459E6 /* FirstMacViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstMacViewController.xib; sourceTree = "<group>"; };
+		ED40ED791AECFEFD00E459E6 /* PianoconcertViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PianoconcertViewController.swift; sourceTree = "<group>"; };
+		ED40ED7A1AECFEFD00E459E6 /* PianoconcertViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PianoconcertViewController.xib; sourceTree = "<group>"; };
+		ED40ED7D1AED109F00E459E6 /* WWDCViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WWDCViewController.swift; sourceTree = "<group>"; };
+		ED40ED7E1AED109F00E459E6 /* WWDCViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WWDCViewController.xib; sourceTree = "<group>"; };
+		ED5286E61ADFAC6100B9C079 /* StudentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentViewController.swift; sourceTree = "<group>"; };
+		ED5286E81ADFAC7F00B9C079 /* MusicianViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicianViewController.swift; sourceTree = "<group>"; };
+		ED8AD1771ADE89D5005699AE /* ContentController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = ContentController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED30750F1ADD683700E3DA98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED3075091ADD683700E3DA98 = {
+			isa = PBXGroup;
+			children = (
+				ED3075141ADD683700E3DA98 /* Marc Clascà */,
+				ED3075131ADD683700E3DA98 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED3075131ADD683700E3DA98 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED3075121ADD683700E3DA98 /* Marc Clascà.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED3075141ADD683700E3DA98 /* Marc Clascà */ = {
+			isa = PBXGroup;
+			children = (
+				ED3075171ADD683700E3DA98 /* AppDelegate.swift */,
+				ED3075191ADD683700E3DA98 /* HumanViewController.swift */,
+				ED40ED4F1AEC621400E459E6 /* Person Pages */,
+				ED5286E61ADFAC6100B9C079 /* StudentViewController.swift */,
+				ED40ED5D1AEC949000E459E6 /* Student Pages */,
+				ED5286E81ADFAC7F00B9C079 /* MusicianViewController.swift */,
+				ED2D8AB71AE4F49D0098CB53 /* DeveloperViewController.swift */,
+				ED40ED6E1AECF1F200E459E6 /* Developer Pages */,
+				ED30751B1ADD683700E3DA98 /* Main.storyboard */,
+				ED8AD1771ADE89D5005699AE /* ContentController.swift */,
+				ED30751E1ADD683700E3DA98 /* Images.xcassets */,
+				ED3075201ADD683700E3DA98 /* LaunchScreen.xib */,
+				ED3075151ADD683700E3DA98 /* Supporting Files */,
+			);
+			path = "Marc Clascà";
+			sourceTree = "<group>";
+		};
+		ED3075151ADD683700E3DA98 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ED3075161ADD683700E3DA98 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ED40ED4F1AEC621400E459E6 /* Person Pages */ = {
+			isa = PBXGroup;
+			children = (
+				ED40ED681AECA07C00E459E6 /* IMG_0063.jpeg */,
+				ED40ED4B1AEC5A2400E459E6 /* HelloViewController.swift */,
+				ED40ED4C1AEC5A2400E459E6 /* HelloViewController.xib */,
+				ED40ED501AEC62E900E459E6 /* IntroViewController.swift */,
+				ED40ED511AEC62E900E459E6 /* IntroViewController.xib */,
+				ED40ED541AEC874700E459E6 /* ReadyViewController.swift */,
+				ED40ED551AEC874700E459E6 /* ReadyViewController.xib */,
+			);
+			name = "Person Pages";
+			sourceTree = "<group>";
+		};
+		ED40ED5D1AEC949000E459E6 /* Student Pages */ = {
+			isa = PBXGroup;
+			children = (
+				ED40ED661AEC9BEE00E459E6 /* INS-La-Roca-Logo.png */,
+				ED40ED581AEC948400E459E6 /* CurrentEducationViewController.swift */,
+				ED40ED591AEC948400E459E6 /* CurrentEducationViewController.xib */,
+				ED40ED5E1AEC95D600E459E6 /* UniversityViewController.swift */,
+				ED40ED5F1AEC95D600E459E6 /* UniversityViewController.xib */,
+				ED40ED621AEC964600E459E6 /* HighSchoolViewController.swift */,
+				ED40ED631AEC964600E459E6 /* HighSchoolViewController.xib */,
+			);
+			name = "Student Pages";
+			sourceTree = "<group>";
+		};
+		ED40ED6E1AECF1F200E459E6 /* Developer Pages */ = {
+			isa = PBXGroup;
+			children = (
+				ED40ED731AECFB8A00E459E6 /* pianoconcert-icon.jpg */,
+				ED40ED6A1AECF1EE00E459E6 /* BeginingViewController.swift */,
+				ED40ED6B1AECF1EE00E459E6 /* BeginingViewController.xib */,
+				ED40ED6F1AECF56B00E459E6 /* SkillsViewController.swift */,
+				ED40ED701AECF56B00E459E6 /* SkillsViewController.xib */,
+				ED40ED751AECFD3100E459E6 /* FirstMacViewController.swift */,
+				ED40ED761AECFD3100E459E6 /* FirstMacViewController.xib */,
+				ED40ED791AECFEFD00E459E6 /* PianoconcertViewController.swift */,
+				ED40ED7A1AECFEFD00E459E6 /* PianoconcertViewController.xib */,
+				ED40ED7D1AED109F00E459E6 /* WWDCViewController.swift */,
+				ED40ED7E1AED109F00E459E6 /* WWDCViewController.xib */,
+			);
+			name = "Developer Pages";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED3075111ADD683700E3DA98 /* Marc Clascà */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED3075311ADD683800E3DA98 /* Build configuration list for PBXNativeTarget "Marc Clascà" */;
+			buildPhases = (
+				ED30750E1ADD683700E3DA98 /* Sources */,
+				ED30750F1ADD683700E3DA98 /* Frameworks */,
+				ED3075101ADD683700E3DA98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Marc Clascà";
+			productName = "Marc Clascà";
+			productReference = ED3075121ADD683700E3DA98 /* Marc Clascà.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED30750A1ADD683700E3DA98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Marc Clascà";
+				TargetAttributes = {
+					ED3075111ADD683700E3DA98 = {
+						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = C29BMLMP2U;
+					};
+				};
+			};
+			buildConfigurationList = ED30750D1ADD683700E3DA98 /* Build configuration list for PBXProject "Marc Clascà" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED3075091ADD683700E3DA98;
+			productRefGroup = ED3075131ADD683700E3DA98 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED3075111ADD683700E3DA98 /* Marc Clascà */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED3075101ADD683700E3DA98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED40ED571AEC874700E459E6 /* ReadyViewController.xib in Resources */,
+				ED40ED781AECFD3100E459E6 /* FirstMacViewController.xib in Resources */,
+				ED40ED6D1AECF1EE00E459E6 /* BeginingViewController.xib in Resources */,
+				ED40ED7C1AECFEFD00E459E6 /* PianoconcertViewController.xib in Resources */,
+				ED30751D1ADD683700E3DA98 /* Main.storyboard in Resources */,
+				ED40ED741AECFB8A00E459E6 /* pianoconcert-icon.jpg in Resources */,
+				ED40ED611AEC95D600E459E6 /* UniversityViewController.xib in Resources */,
+				ED40ED801AED109F00E459E6 /* WWDCViewController.xib in Resources */,
+				ED40ED721AECF56C00E459E6 /* SkillsViewController.xib in Resources */,
+				ED40ED671AEC9BEE00E459E6 /* INS-La-Roca-Logo.png in Resources */,
+				ED40ED651AEC964600E459E6 /* HighSchoolViewController.xib in Resources */,
+				ED40ED531AEC62E900E459E6 /* IntroViewController.xib in Resources */,
+				ED3075221ADD683700E3DA98 /* LaunchScreen.xib in Resources */,
+				ED40ED691AECA07C00E459E6 /* IMG_0063.jpeg in Resources */,
+				ED40ED5B1AEC948400E459E6 /* CurrentEducationViewController.xib in Resources */,
+				ED30751F1ADD683700E3DA98 /* Images.xcassets in Resources */,
+				ED40ED4E1AEC5A2400E459E6 /* HelloViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED30750E1ADD683700E3DA98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED40ED4D1AEC5A2400E459E6 /* HelloViewController.swift in Sources */,
+				ED40ED7F1AED109F00E459E6 /* WWDCViewController.swift in Sources */,
+				ED40ED5A1AEC948400E459E6 /* CurrentEducationViewController.swift in Sources */,
+				ED40ED641AEC964600E459E6 /* HighSchoolViewController.swift in Sources */,
+				ED40ED601AEC95D600E459E6 /* UniversityViewController.swift in Sources */,
+				ED5286E71ADFAC6100B9C079 /* StudentViewController.swift in Sources */,
+				ED30751A1ADD683700E3DA98 /* HumanViewController.swift in Sources */,
+				ED40ED7B1AECFEFD00E459E6 /* PianoconcertViewController.swift in Sources */,
+				ED40ED561AEC874700E459E6 /* ReadyViewController.swift in Sources */,
+				ED5286E91ADFAC7F00B9C079 /* MusicianViewController.swift in Sources */,
+				ED40ED6C1AECF1EE00E459E6 /* BeginingViewController.swift in Sources */,
+				ED40ED521AEC62E900E459E6 /* IntroViewController.swift in Sources */,
+				ED2D8AB81AE4F49D0098CB53 /* DeveloperViewController.swift in Sources */,
+				ED8AD1781ADE89D5005699AE /* ContentController.swift in Sources */,
+				ED40ED711AECF56C00E459E6 /* SkillsViewController.swift in Sources */,
+				ED3075181ADD683700E3DA98 /* AppDelegate.swift in Sources */,
+				ED40ED771AECFD3100E459E6 /* FirstMacViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ED30751B1ADD683700E3DA98 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED30751C1ADD683700E3DA98 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ED3075201ADD683700E3DA98 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED3075211ADD683700E3DA98 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED30752F1ADD683800E3DA98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ED3075301ADD683800E3DA98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED3075321ADD683800E3DA98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Marc Clascà/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ED3075331ADD683800E3DA98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Marc Clascà/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED30750D1ADD683700E3DA98 /* Build configuration list for PBXProject "Marc Clascà" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED30752F1ADD683800E3DA98 /* Debug */,
+				ED3075301ADD683800E3DA98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED3075311ADD683800E3DA98 /* Build configuration list for PBXNativeTarget "Marc Clascà" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED3075321ADD683800E3DA98 /* Debug */,
+				ED3075331ADD683800E3DA98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED30750A1ADD683700E3DA98 /* Project object */;
+}
